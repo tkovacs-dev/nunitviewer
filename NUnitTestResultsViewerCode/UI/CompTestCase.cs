@@ -9,25 +9,24 @@ using System.Windows.Forms;
 
 namespace NUnitTestResultsViewerCode.UI
 {
-  public partial class CompTestCase : UserControl, ICompResultsUI
-  {
-    public CompTestCase()
+    public partial class CompTestCase : UserControl, ICompResultsUI
     {
-      InitializeComponent();
+        public CompTestCase()
+        {
+            InitializeComponent();
+        }
+
+        public void InitializeData(Items.BaseItem result)
+        {
+            var res = result as Items.TestCase;
+            if (null == res)
+            {
+                throw new Exception("Invalid argument type.");
+            }
+
+            compTestResult.InitializeData(res);
+            txtMessage.Text = res.Message.Replace("\n", Environment.NewLine);
+            txtStackTrace.Text = res.StackTrace.Replace("\n", Environment.NewLine);
+        }
     }
-
-    public void InitializeData( Items.BaseItem result )
-    {
-      var res = result as Items.TestCase;
-      if( null == res )
-      {
-        throw new Exception( "Invalid argument type." );
-      }
-
-      compTestResult.InitializeData( res );
-      txtMessage.Text = res.Message;
-      txtStackTrace.Text = res.StackTrace;
-
-    }
-  }
 }
