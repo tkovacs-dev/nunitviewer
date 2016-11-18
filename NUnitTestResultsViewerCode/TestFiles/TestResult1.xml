@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.Document.UnitTests.dll" total="137" errors="1" failures="9" not-run="3" inconclusive="0" ignored="3" skipped="0" invalid="0" date="2011-09-02" time="15:34:45">
+  <environment nunit-version="2.5.8.10295" clr-version="2.0.50727.5446" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin" machine-name="UAPC1253" user="ysn" user-domain="MITA" />
+  <culture-info current-culture="uk-UA" current-uiculture="en-US" />
+  <test-suite type="Project" name="" executed="True" result="Failure" success="False" time="45.422" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.Document.UnitTests.dll" executed="True" result="Success" success="True" time="7.550" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MitaTeknik" executed="True" result="Success" success="True" time="7.550" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PEP" executed="True" result="Success" success="True" time="7.550" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Document" executed="True" result="Success" success="True" time="7.540" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="7.540" asserts="0">
+                        <results>
+                          <test-suite type="Namespace" name="Simulink" executed="True" result="Success" success="True" time="7.540" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="ParserTests" executed="True" result="Success" success="True" time="7.210" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest1Error" executed="True" result="Success" success="True" time="0.350" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest1File1" executed="True" result="Success" success="True" time="0.320" asserts="21" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest1File2" executed="True" result="Success" success="True" time="0.010" asserts="28" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest1File3" executed="True" result="Success" success="True" time="0.050" asserts="12" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest2Error" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest2File1" executed="True" result="Success" success="True" time="0.050" asserts="4" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest2File2" executed="True" result="Success" success="True" time="0.010" asserts="11" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest3Error" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.ParserTests.ParserTest3File2" executed="True" result="Success" success="True" time="0.020" asserts="2" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="SimulinkObjectFactoryUnitTests" executed="True" result="Success" success="True" time="0.320" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Document.UnitTests.Simulink.SimulinkObjectFactoryUnitTests.TestCreateSimulinkObjectTest1" executed="True" result="Success" success="True" time="0.120" asserts="3" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Assembly" name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.ConfigObjects.UnitTests.dll" executed="True" result="Success" success="True" time="0.800" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MitaTeknik" executed="True" result="Success" success="True" time="0.780" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PEP" executed="True" result="Success" success="True" time="0.780" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ConfigObjects" executed="True" result="Success" success="True" time="0.770" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="0.770" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="BaseObjectTests" executed="True" result="Success" success="True" time="0.040" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.AddRangeTest" executed="True" result="Success" success="True" time="0.010" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.AddTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ConstructorsTest1" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ConstructorsTest2" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ConstructorsTest3" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ConstructorsTest4" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.CustomActionTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.isUpdatedTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.RemoveTest2" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.SetConstUsageFalseTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ToStringFormatTest1" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ToStringFormatTest2" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.BaseObjectTests.ToStringTest" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ButtonTests" executed="True" result="Success" success="True" time="0.490" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ConstructorTest1" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ConstructorTest2" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ConstructorTest3" executed="True" result="Success" success="True" time="0.010" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ConstructorTest4" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ConstructorTest5" executed="True" result="Success" success="True" time="0.000" asserts="10" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.isInvalidTest" executed="True" result="Success" success="True" time="0.090" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.PropertyChangedTest" executed="True" result="Success" success="True" time="0.020" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ResolveTest1" executed="True" result="Success" success="True" time="0.100" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ResolveTest2" executed="True" result="Success" success="True" time="0.010" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ResolveTest3" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ResolveTest4" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.ButtonTests.ToStringTest" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Helpers" executed="True" result="Success" success="True" time="0.230" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="ValueTypeHelperTests" executed="True" result="Success" success="True" time="0.230" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsEqualTest1" executed="True" result="Success" success="True" time="0.120" asserts="119" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsEqualTest2" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsGraterOrEqualTest1" executed="True" result="Success" success="True" time="0.020" asserts="223" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsGraterOrEqualTest2" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsGraterTest1" executed="True" result="Success" success="True" time="0.030" asserts="222" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsGraterTest2" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsLessOrEqualTest1" executed="True" result="Success" success="True" time="0.020" asserts="223" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsLessOrEqualTest2" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsLessTest1" executed="True" result="Success" success="True" time="0.020" asserts="222" />
+                                  <test-case name="MitaTeknik.PEP.ConfigObjects.UnitTests.Helpers.ValueTypeHelperTests.IsLessTest2" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Assembly" name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.Controller.UnitTests.dll" executed="True" result="Success" success="True" time="16.563" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MitaTeknik" executed="True" result="Success" success="True" time="16.563" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PEP" executed="True" result="Success" success="True" time="16.563" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Controller" executed="True" result="Success" success="True" time="16.563" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="16.563" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="TaskControllerTests" executed="True" result="Success" success="True" time="16.563" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Controller.UnitTests.TaskControllerTests.Test1" executed="True" result="Success" success="True" time="11.081" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Controller.UnitTests.TaskControllerTests.Test2" executed="True" result="Success" success="True" time="2.781" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Controller.UnitTests.TaskControllerTests.Test3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Controller.UnitTests.TaskControllerTests.Test4" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Controller.UnitTests.TaskControllerTests.Test5" executed="True" result="Success" success="True" time="2.690" asserts="1" />
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Assembly" name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.Parser.UnitTests.dll" executed="True" result="Failure" success="False" time="2.370" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MitaTeknik" executed="True" result="Failure" success="False" time="2.360" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PEP" executed="True" result="Failure" success="False" time="2.340" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Parser" executed="True" result="Failure" success="False" time="2.340" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="UnitTests" executed="True" result="Failure" success="False" time="2.340" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="BaseParserWithButtonsParserTests" executed="True" result="Failure" success="False" time="0.590" asserts="0">
+                            <categories>
+                              <category name="ParserTests" />
+                            </categories>
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.ConvertDefineTest" executed="True" result="Success" success="True" time="0.000" asserts="23" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetCaptionTest1" executed="True" result="Success" success="True" time="0.010" asserts="0" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetCaptionTest2" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetCaptionTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetCaptionTest4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetCaptionTest5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetDescriptionTextTest1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetDescriptionTextTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetDescriptionTextTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetDescriptionTextTest4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.GetDescriptionTextTest5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest1" executed="True" result="Failure" success="False" time="0.050" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "\r\n//123\r\n//asd"
+  Expected string length 8 but was 11. Strings differ at index 6.
+  Expected: "\r\n\r\n\r\n\r\n"
+  But was:  "\r\n\r\n\r\n//asd"
+  -----------------------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest1() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 108
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest2" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "//123\r\n//asd"
+  Expected string length 6 but was 9. Strings differ at index 4.
+  Expected: "\r\n\r\n\r\n"
+  But was:  "\r\n\r\n//asd"
+  -------------------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest2() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 114
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest3" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "text/*123*/text"
+  Expected string length 8 but was 9. Strings differ at index 0.
+  Expected: "texttext"
+  But was:  "\r\ntextext"
+  -----------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest3() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 120
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest4" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "/*123*/text"
+  Expected string length 4 but was 5. Strings differ at index 0.
+  Expected: "text"
+  But was:  "\rtext"
+  -----------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest4() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 126
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest5" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "text/*123*/"
+  Expected string length 4 but was 5. Strings differ at index 0.
+  Expected: "text"
+  But was:  "\r\ntex"
+  -----------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest5() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 132
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest6" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: ""
+  Expected string length 0 but was 2. Strings differ at index 0.
+  Expected: <string.Empty>
+  But was:  "\r\n"
+  -----------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest6() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 138
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest7" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest8" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Input text: "\r\n/**/\r\n"
+  Expected string length 6 but was 10. Strings differ at index 4.
+  Expected: "\r\n\r\n\r\n"
+  But was:  "\r\n\r\n/**/\r\n"
+  -------------------^
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTestFunc(String strExpected, String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 102
+at MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest8() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\BaseParserWithButtonsParserTests.cs:line 150
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.RemoveCommentsTest9" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.SplitTest" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.BaseParserWithButtonsParserTests.TrimReplaceTest" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[I don't know how work this method]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ButtonsParserTests" executed="True" result="Failure" success="False" time="0.700" asserts="0">
+                            <categories>
+                              <category name="ParserTests" />
+                            </categories>
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest1" executed="True" result="Success" success="True" time="0.030" asserts="8" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest2" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest3" executed="True" result="Success" success="True" time="0.010" asserts="8" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest4" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  button.Index is not valid
+  Expected: 1
+  But was:  -999999999
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest4() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\ButtonsParserTests.cs:line 134
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest5" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest6" executed="True" result="Error" success="False" time="0.050" asserts="0">
+                                <failure>
+                                  <message><![CDATA[System.Reflection.TargetInvocationException : Exception has been thrown by the target of an invocation.
+  ----> System.IndexOutOfRangeException : Index was outside the bounds of the array.]]></message>
+                                  <stack-trace><![CDATA[at System.RuntimeMethodHandle._InvokeMethodFast(Object target, Object[] arguments, SignatureStruct& sig, MethodAttributes methodAttributes, RuntimeTypeHandle typeOwner)
+at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture, Boolean skipVisibilityChecks)
+at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+at System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+at NUnit.Util.Common.NUnitCommonUtils.RunMethod(Type t, String strMethod, Object objInstance, Object[] aobjParams, BindingFlags eFlags)
+at NUnit.Util.Common.NUnitCommonUtils.RunMethodFromInstance(Object objInstance, String strMethod, Object[] aobjParams)
+at MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetButtonTest6() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\ButtonsParserTests.cs:line 164
+--IndexOutOfRangeException
+at MitaTeknik.PEP.Parser.ButtonsParser.GetButton(String buttonProps, String fileName) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser\ButtonsParser.cs:line 54
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest1" executed="True" result="Success" success="True" time="0.010" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest2" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest3" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest4" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest5" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.GetNameTest6" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.ParsingEngineTest1" executed="True" result="Success" success="True" time="0.050" asserts="25" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.ParsingEngineTest2" executed="True" result="Failure" success="False" time="0.000" asserts="1">
+                                <failure>
+                                  <message><![CDATA[  Count buttons is wrong
+  Expected: 4
+  But was:  0
+]]></message>
+                                  <stack-trace><![CDATA[at MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.ParsingEngineTest(String text) in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\ButtonsParserTests.cs:line 183
+at MitaTeknik.PEP.Parser.UnitTests.ButtonsParserTests.ParsingEngineTest2() in F:\CVSsandbox\PEPTOOL\Project\HEAD\source\Parser.UnitTests\ButtonsParserTests.cs:line 345
+]]></stack-trace>
+                                </failure>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ControlLoopParserTests" executed="True" result="Success" success="True" time="0.470" asserts="0">
+                            <categories>
+                              <category name="ParserTests" />
+                            </categories>
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseControlSectionTest1" executed="True" result="Success" success="True" time="0.030" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseDriverSectionTest1" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseIncludesTest1" executed="True" result="Success" success="True" time="0.010" asserts="7" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseIncludesTest2" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[Comments are not deleted.]]></message>
+                                </reason>
+                              </test-case>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseInitSectionTest1" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseInitSectionTest2" executed="True" result="Success" success="True" time="0.000" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ParseStcFunctionsTest" executed="True" result="Success" success="True" time="0.010" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ControlLoopParserTests.ReplaceIncludesTest1" executed="True" result="Success" success="True" time="0.010" asserts="11" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="ReferencesParserTests" executed="True" result="Success" success="True" time="0.570" asserts="0">
+                            <categories>
+                              <category name="ParserTests" />
+                            </categories>
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ExtractReferenceTest1" executed="True" result="Success" success="True" time="0.010" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ExtractReferenceTest2" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ExtractReferenceTest3" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ExtractReferenceTest4" executed="True" result="Success" success="True" time="0.010" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.GetReferenceTypeTest1" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.GetVariableTypeTest1" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ParseCoreTest1" executed="True" result="Success" success="True" time="0.010" asserts="8" />
+                              <test-case name="MitaTeknik.PEP.Parser.UnitTests.ReferencesParserTests.ParseCoreTest2" executed="False" result="Ignored">
+                                <reason>
+                                  <message><![CDATA[Comments are not deleted]]></message>
+                                </reason>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+      <test-suite type="Assembly" name="F:\CVSsandbox\PEPTOOL\Project\HEAD\source\bin\UnitTests\MitaTeknik.PEP.Common.UnitTests.dll" executed="True" result="Success" success="True" time="18.059" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="MitaTeknik" executed="True" result="Success" success="True" time="18.049" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="PEP" executed="True" result="Success" success="True" time="18.049" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="Common" executed="True" result="Success" success="True" time="18.039" asserts="0">
+                    <results>
+                      <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="18.039" asserts="0">
+                        <results>
+                          <test-suite type="TestFixture" name="BaseXMLHelperTests" executed="True" result="Success" success="True" time="0.040" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.BaseXMLHelperTests.SetGetNodeValueTest" executed="True" result="Success" success="True" time="0.010" asserts="9" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.BaseXMLHelperTests.Value2XMLTest" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.BaseXMLHelperTests.XML2ValueTest" executed="True" result="Success" success="True" time="0.030" asserts="12" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="FTP" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="FtpConfigTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.FTP.FtpConfigTests.CheckPropertyTest" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                    <properties>
+                                      <property name="Repeat" value="15" />
+                                    </properties>
+                                  </test-case>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.FTP.FtpConfigTests.ConvertToCRCFolderTest" executed="True" result="Success" success="True" time="0.000" asserts="5" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.FTP.FtpConfigTests.ConvertToFTPAddressTest" executed="True" result="Success" success="True" time="0.000" asserts="4" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="IssuesProcessing" executed="True" result="Success" success="True" time="0.030" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="AnalyzeMessageItemTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.AnalyzeMessageItemTests.TestConstructors" executed="True" result="Success" success="True" time="0.010" asserts="6" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.AnalyzeMessageItemTests.TestProperty" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="MessageItemCollectionTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.MessageItemCollectionTests.Test1" executed="True" result="Success" success="True" time="0.000" asserts="2" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.MessageItemCollectionTests.Test2" executed="True" result="Success" success="True" time="0.010" asserts="5" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.MessageItemCollectionTests.Test3" executed="True" result="Success" success="True" time="0.000" asserts="8" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.MessageItemCollectionTests.Test4" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.IssuesProcessing.MessageItemCollectionTests.Test5" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="LocalDataTests" executed="True" result="Success" success="True" time="0.240" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.LocalDataTests.LocalDataTest" executed="True" result="Success" success="True" time="0.240" asserts="0" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="MostRecentTests" executed="True" result="Success" success="True" time="0.180" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.MostRecentTests.MostRecentTest1" executed="True" result="Success" success="True" time="0.010" asserts="5" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.MostRecentTests.MostRecentTest2" executed="True" result="Success" success="True" time="0.030" asserts="5" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.MostRecentTests.MostRecentTest3" executed="True" result="Success" success="True" time="0.030" asserts="35" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Notification" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="NotificationCenterTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Notification.NotificationCenterTests.Test1" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Notification.NotificationCenterTests.Test2" executed="True" result="Success" success="True" time="0.010" asserts="5" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="NotificationTests" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Notification.NotificationTests.Test" executed="True" result="Success" success="True" time="0.000" asserts="6" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="PEPBackupTests" executed="True" result="Success" success="True" time="16.779" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.BackupSizeTest" executed="True" result="Success" success="True" time="2.330" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.DeleteOldestBackupFileTest" executed="True" result="Success" success="True" time="2.590" asserts="12" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.DoTheBackUpTest" executed="True" result="Success" success="True" time="2.660" asserts="0" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.EnumerateFilesTest1" executed="True" result="Success" success="True" time="2.300" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.GetMD5Test" executed="True" result="Success" success="True" time="2.340" asserts="3" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.GetPrevBackupFileNameTest" executed="True" result="Success" success="True" time="2.280" asserts="1" />
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPBackupTests.NumberOfBackUpFilesTest" executed="True" result="Success" success="True" time="2.280" asserts="1" />
+                            </results>
+                          </test-suite>
+                          <test-suite type="TestFixture" name="PEPPreferenceTests" executed="True" result="Success" success="True" time="0.640" asserts="0">
+                            <results>
+                              <test-case name="MitaTeknik.PEP.Common.UnitTests.PEPPreferenceTests.PEPPreferenceTest" executed="True" result="Success" success="True" time="0.640" asserts="126">
+                                <properties>
+                                  <property name="Repeat" value="15" />
+                                </properties>
+                              </test-case>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Props" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                            <results>
+                              <test-suite type="Namespace" name="Attributes" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                <results>
+                                  <test-suite type="TestFixture" name="DynamicPropertyFilterAttributeTests" executed="True" result="Inconclusive" success="False" time="0.000" asserts="0" />
+                                  <test-suite type="TestFixture" name="EnumableAttributeTests" executed="True" result="Success" success="True" time="0.010" asserts="0">
+                                    <results>
+                                      <test-case name="MitaTeknik.PEP.Common.UnitTests.Props.Attributes.EnumableAttributeTests.CheckPropertyTest" executed="True" result="Success" success="True" time="0.000" asserts="0">
+                                        <properties>
+                                          <property name="Repeat" value="50" />
+                                        </properties>
+                                      </test-case>
+                                      <test-case name="MitaTeknik.PEP.Common.UnitTests.Props.Attributes.EnumableAttributeTests.ConstructorTest" executed="True" result="Success" success="True" time="0.000" asserts="20" />
+                                    </results>
+                                  </test-suite>
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                          <test-suite type="Namespace" name="Version" executed="True" result="Success" success="True" time="0.070" asserts="0">
+                            <results>
+                              <test-suite type="TestFixture" name="ObjectVersionTests" executed="True" result="Success" success="True" time="0.020" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ObjectVersionTests.ConstructorTest" executed="True" result="Success" success="True" time="0.010" asserts="18" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ObjectVersionTests.IsEqualTest" executed="True" result="Success" success="True" time="0.000" asserts="9" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ObjectVersionTests.IsGreaterTest" executed="True" result="Success" success="True" time="0.010" asserts="13" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ObjectVersionTests.PropertyTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                              <test-suite type="TestFixture" name="ProjectVersionTester" executed="True" result="Success" success="True" time="0.040" asserts="0">
+                                <results>
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ProjectVersionTester.ConstructorTest" executed="True" result="Success" success="True" time="0.000" asserts="7" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ProjectVersionTester.GetSetVersionDescriptionTest" executed="True" result="Success" success="True" time="0.030" asserts="6" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ProjectVersionTester.ParseRevisionNumberTest" executed="True" result="Success" success="True" time="0.010" asserts="24" />
+                                  <test-case name="MitaTeknik.PEP.Common.UnitTests.Version.ProjectVersionTester.PropertyTest" executed="True" result="Success" success="True" time="0.000" asserts="0" />
+                                </results>
+                              </test-suite>
+                            </results>
+                          </test-suite>
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
