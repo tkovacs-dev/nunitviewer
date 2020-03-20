@@ -30,11 +30,11 @@
     {
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabGeneral = new System.Windows.Forms.TabPage();
-            this.compTestResult = new NUnitTestResultsViewerCode.UI.CompTestResult();
             this.tabMessage = new System.Windows.Forms.TabPage();
             this.txtMessage = new System.Windows.Forms.TextBox();
             this.tabStackTrace = new System.Windows.Forms.TabPage();
             this.txtStackTrace = new System.Windows.Forms.TextBox();
+            this.compTestResult = new NUnitTestResultsViewerCode.UI.CompTestResult();
             this.tabControl.SuspendLayout();
             this.tabGeneral.SuspendLayout();
             this.tabMessage.SuspendLayout();
@@ -67,15 +67,6 @@
             this.tabGeneral.TabIndex = 0;
             this.tabGeneral.Text = "General";
             // 
-            // compTestResult
-            // 
-            this.compTestResult.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.compTestResult.Font = new System.Drawing.Font("Tahoma", 8.25F);
-            this.compTestResult.Location = new System.Drawing.Point(0, 0);
-            this.compTestResult.Name = "compTestResult";
-            this.compTestResult.Size = new System.Drawing.Size(439, 300);
-            this.compTestResult.TabIndex = 0;
-            // 
             // tabMessage
             // 
             this.tabMessage.Controls.Add(this.txtMessage);
@@ -99,6 +90,7 @@
             this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtMessage.Size = new System.Drawing.Size(439, 300);
             this.txtMessage.TabIndex = 0;
+            this.txtMessage.WordWrap = false;
             // 
             // tabStackTrace
             // 
@@ -124,6 +116,15 @@
             this.txtStackTrace.Size = new System.Drawing.Size(439, 300);
             this.txtStackTrace.TabIndex = 1;
             this.txtStackTrace.WordWrap = false;
+            // 
+            // compTestResult
+            // 
+            this.compTestResult.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.compTestResult.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.compTestResult.Location = new System.Drawing.Point(0, 0);
+            this.compTestResult.Name = "compTestResult";
+            this.compTestResult.Size = new System.Drawing.Size(439, 300);
+            this.compTestResult.TabIndex = 0;
             // 
             // CompTestCase
             // 

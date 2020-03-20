@@ -25,8 +25,8 @@ namespace NUnitTestResultsViewerCode.UI
             }
 
             compTestResult.InitializeData(res);
-            txtMessage.Text = res.Message.Replace("\n", Environment.NewLine);
-            txtStackTrace.Text = res.StackTrace.Replace("\n", Environment.NewLine);
+            txtMessage.Lines = res.Message.Split(new[] {'\r', '\n' });
+            txtStackTrace.Lines = res.StackTrace.Split(new[] { '\r', '\n' });
         }
     }
 }
