@@ -84,8 +84,6 @@ namespace NUnitTestResultsViewerCode
         setDefaultValues();
       }
 
-      trvResults.ExpandAll();
-
       if ( trvResults.Nodes.Count > 0 )
       {
         trvResults.Nodes[0].EnsureVisible();
@@ -102,7 +100,6 @@ namespace NUnitTestResultsViewerCode
     /// <returns></returns>
     private TreeNode filterNodes( TreeNode results )
     {
-      this.trvResults.SuspendLayout();
       List<TreeNode> toBeRemoved = new List<TreeNode>();
       foreach ( TreeNode t in results.Nodes )
       {
@@ -115,6 +112,7 @@ namespace NUnitTestResultsViewerCode
             continue;
           }
         }
+          
         filterNodes( t );
       }
 
@@ -123,7 +121,7 @@ namespace NUnitTestResultsViewerCode
         results.Nodes.Remove( t );
       }
 
-      this.trvResults.ResumeLayout( false );
+      results.Expand();
       return results;
     }
 
